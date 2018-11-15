@@ -1,0 +1,20 @@
+test documentation:
+
+-libraries used: os, matplotlib (as plt)
+
+-path and keyword based on user input (if using 'copy as path' remove quotations)
+
+-test directory included in filewalker folder (testdir path was used for testing/keyword = ribeye)
+
+-test method: 
+	
+	- created test directory and subdirectories each containing either positive test files (file name and contents
+		containing keyword) or negative test folders (do not contain one or both of positive criteria)
+	
+	- intended results using testdir: 6 total positive test files, testdir: 1, sub1: 2, sub2: 3
+	
+	-graph should reflect above results
+
+
+- possible improvements:  robust input verification, try/except catch statements to ensure directories/files exist, 
+	utilize other available python libraries to optimize code 
